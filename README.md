@@ -13,7 +13,7 @@ poetry install
 
 Dentro da pasta `notebooks` estão os arquivos `.ipynb` com os códigos utilizados para a resolução dos trabalhos.
 
-Para gerar os pdfs dos notebooks fui usado:
+Para gerar os pdfs dos notebooks foi usado:
 ```bash
 jupyter-nbconvert --to webpdf --allow-chromium-download nome_do_arquivo.ipynb
 ```
